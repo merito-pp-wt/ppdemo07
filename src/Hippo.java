@@ -1,14 +1,12 @@
 public class Hippo extends Animal {
-
-
     public Hippo(String f) {
         super(f);
     }
 
     public void makeNoise() {
-        System.out.println("Chrum, chrum...");
+        System.out.println("Hipek: Chrum, chrum...");
     }
     public void swim() {
-        System.out.println("Ja pływam...");
+        System.out.println("Hipek: Ja pływam...");
     }
 }
